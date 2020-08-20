@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dac63ad8-dd08-442d-bca2-466ac23c3ab7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gBvpYKHUhIhGacntezyJFY6k2O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Library/mysql-connector-java-8.0.19.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\solom\OneDrive\KeepTrack\web\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.34" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="KeepTrack:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/KeepTrack_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="KeepTrack:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dac63ad8-dd08-442d-bca2-466ac23c3ab7" name="Default Changelist" comment="" />
+      <created>1597600983420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597600983420</updated>
+      <workItem from="1597600988614" duration="6665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="887" y="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597601385620">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="887" y="275" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1597601385620" />
+    <state x="558" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1597606100291">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="558" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1597606100291" />
+    <state x="694" y="226" key="FileChooserDialogImpl" timestamp="1597601720891">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="694" y="226" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1597601720891" />
+    <state x="466" y="59" key="SettingsEditor" timestamp="1597601729354">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="466" y="59" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1597601729354" />
+  </component>
+</project>

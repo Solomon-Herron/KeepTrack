@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dac63ad8-dd08-442d-bca2-466ac23c3ab7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/KeepTrack_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/KeepTrack_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeepTrack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepTrack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/keeptrack/MySQLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/keeptrack/MySQLAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/keeptrack/UserControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/keeptrack/UserControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/list_users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list_users.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="KeepTrack:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Keeptrack" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12012" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="KeepTrack:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="597" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597886483937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="597" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-353.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597886483937" />
+    <state width="1293" height="261" key="GridCell.Tab.0.bottom" timestamp="1597886381279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="261" key="GridCell.Tab.0.bottom/1920.-353.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597886381279" />
+    <state width="1293" height="261" key="GridCell.Tab.0.center" timestamp="1597886381278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="261" key="GridCell.Tab.0.center/1920.-353.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597886381278" />
+    <state width="1293" height="261" key="GridCell.Tab.0.left" timestamp="1597886381278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="261" key="GridCell.Tab.0.left/1920.-353.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597886381278" />
+    <state width="1293" height="261" key="GridCell.Tab.0.right" timestamp="1597886381278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="261" key="GridCell.Tab.0.right/1920.-353.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597886381278" />
+  </component>
+</project>

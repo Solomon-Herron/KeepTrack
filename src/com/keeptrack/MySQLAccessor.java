@@ -15,6 +15,20 @@ public class MySQLAccessor {
         this.dataSource = dataSource;
     }
 
+//    public void addUser(User user) throws Exception{
+//        Connection conn = null;
+//        Statement stmnt = null;
+//        ResultSet rs = null;
+//        try {
+//            conn = dataSource.getConnection();
+//            String sql = "ADD " + user.firstname  + user.lname + "TO table";
+//            stmnt = conn.createStatement();
+//            rs = stmnt.execute(sql);
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
+//    }
+
     public List<User> getUsers() throws Exception{
         List<User> users =new ArrayList<>();
         Connection conn = null;
@@ -25,10 +39,10 @@ public class MySQLAccessor {
             //Create Connection
             conn = dataSource.getConnection();
             //create SQL statement
-            String sql  = "select * from web_user_tracker"; //sql statement
+            String sql  = "select * from user"; //sql statement
             stmnt = conn.createStatement(); //statement object created for connection
             //execute query
-            rs =stmnt.executeQuery(sql);
+            rs = stmnt.executeQuery(sql);
             //proccess result set
             while (rs.next()){
                 //extract data from rs
@@ -37,8 +51,9 @@ public class MySQLAccessor {
                 String  lastName = rs.getString("last_name");
                 String email = rs.getString("email");
                 //create new student object
-
+                User tempUser = new User(id, firstName, lastName, email);
                 //add student to array list
+                users.add(tempUser);
             }
             return users;
         } finally {
