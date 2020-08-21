@@ -1,10 +1,7 @@
 package com.keeptrack;
 
 import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 //This is the DAO class, (data accessor object)
@@ -30,7 +27,7 @@ public class MySQLAccessor {
 //    }
 
     public List<User> getUsers() throws Exception{
-        List<User> users =new ArrayList<>();
+        List<User> users = new ArrayList<>();
         Connection conn = null;
         Statement stmnt = null;
         ResultSet rs = null;
@@ -61,6 +58,30 @@ public class MySQLAccessor {
         }
     }
 
+    public void updateUser(User newUser){
+
+
+    }
+    public void addUser(User newUser) {
+        Connection conn = null;
+        PreparedStatement stmnt = null;
+        ResultSet rs = null;
+
+        try{
+            //Create Connection
+            conn = dataSource.getConnection();
+            //create SQL statement
+            String sql  = "INSERT INTO user (first_name, last_name, email) VALUES ('" + newUser.getFirstName() + "','" + newUser.getLastName() + "','" + newUser.getEmail() + "');"; //sql statement
+            stmnt = conn.createStatement(); //statement object created for connection
+            //execute query
+            stmnt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            close(conn, stmnt, rs);
+        }
+    }
+
     private void close(Connection conn, Statement stmnt, ResultSet rs) {
         try{
             if(rs != null){
@@ -76,4 +97,5 @@ public class MySQLAccessor {
             e.printStackTrace();
         }
     }
+
 }
