@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dac63ad8-dd08-442d-bca2-466ac23c3ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/add-user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/add-user-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/KeepTrack_war_exploded/list_users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KeepTrack_war_exploded/list_users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/keeptrack/MySQLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/keeptrack/MySQLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/keeptrack/UserControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/keeptrack/UserControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/list_users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/list_users.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +163,7 @@
       <workItem from="1597600988614" duration="5343000" />
       <workItem from="1597610768462" duration="10476000" />
       <workItem from="1597887534371" duration="2748000" />
-      <workItem from="1597966034836" duration="9920000" />
+      <workItem from="1597966034836" duration="11128000" />
     </task>
     <servers />
   </component>
